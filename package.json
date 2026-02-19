@@ -1,0 +1,18 @@
+{
+  "name": "oxlint-repro",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "oxlint --type-aware --type-check --deny-warnings --report-unused-disable-directives"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.33.0",
+    "oxlint": "^1.48.0",
+    "oxlint-tsgolint": "^0.14.0"
+  },
+  "packageManager": "pnpm@10.29.2"
+}

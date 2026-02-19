@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript"],
+  "categories": {
+    "correctness": "warn",
+    "restriction": "warn"
+  },
+  "env": {
+    "builtin": true
+  },
+  "rules": {
+    "typescript/no-use-before-define": "allow"
+  }
+}
